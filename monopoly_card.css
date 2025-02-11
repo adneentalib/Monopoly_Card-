@@ -1,0 +1,175 @@
+body {
+    background-color: lightblue;
+}
+
+#cardoutline {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 400px;
+    height: 485px;
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white; 
+
+}
+
+#cardbody {
+    width: 375px;
+    height: 465px;
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+#landtitle {
+    width: 350px;
+    height: 100px;
+    background-color: white;
+}
+
+.titlebox_outline {
+    width: 350px;
+    height: 80px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.title_box {
+    width: 330px;
+    height: 80px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.titledeed {
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    margin-bottom: 5px;
+    letter-spacing: 3px;
+}
+
+.propertyname {
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    font-size: 23px;
+    color: black;
+    letter-spacing: 3px;
+}
+
+#rentbox {
+    width: 350px;
+    height: 130px;
+    background-color: white;
+}
+
+.marvin_rent {
+    font-family: 'Georgia', serif;
+    font-size: 20px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    letter-spacing: 1px;
+}
+
+.rent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    background-color: white;
+    height:140px;
+    width: 275px;
+}
+
+.rent-item {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px 0;
+}
+
+.house1, .house2, .house3, .house4 {
+    font-family: 'Georgia', serif;
+    font-size: 20px;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.price {
+    font-family: 'Georgia', serif;
+    font-size: 20px;
+    color: black;
+    margin-left: 10px; 
+}
+
+#realestate {
+    width: 350px;
+    height: 130px;
+    background-color: white;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.realestate_option {
+    display: flex;
+    justify-content: center; 
+    width: 100%;
+    padding: 5px 0;
+}
+
+.hotel, .mortgage, .house, .hotel_cost {
+    font-family: 'Georgia', serif;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin: 0; 
+    letter-spacing: 1px;
+}
+
+#fullhouse {
+    width: 350px;
+    height: 75px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.bottom {
+    font-family: 'Georgia', serif;
+    font-size: 13px;
+    color: black;
+    text-align: center; 
+    margin: 2px 0; 
+}
